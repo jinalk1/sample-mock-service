@@ -1,0 +1,25 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+  build:
+    commands:
+      - echo "Installing dependencies - `pwd`"
+      - npm install
+      - echo "dependencies install completed `date`"
+      - echo Running Unit tests...
+      - npm test
+      - echo "running  api tests..."
+      - npm run api-test
+      - echo "build completed on `date`"
+  post_build:
+     commands:
+      - aws cloudformation package
+        --template template.yaml
+        --s3-bucket tsys-mock-api
+        --output-template template-export.yml
+artifacts:
+    type: zip
+    files:
+      - template-export.yml

@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'TSYS Mock API
+
+  '
+Globals:
+  Function:
+    Timeout: 10
+Outputs:
+  TSYSMockApi:
+    Description: API Gateway endpoint URL for Prod stage for TSYS Mock API
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/tsys/{proxy+}/
+  TSYSMockApiFunction:
+    Description: TSYS Mock Api Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - TSYSMockApiFunction
+      - Arn
+  TSYSMockApiFunctionIamRole:
+    Description: Implicit IAM Role created for TSYS Mock Api Function
+    Value:
+      Fn::GetAtt:
+      - TSYSMockApiFunctionRole
+      - Arn
+Resources:
+  TSYSMockApiFunction:
+    Properties:
+      CodeUri: s3://tsys-mock-api-bucket/2197bc429d6d8904becf98521fc73aa6
+      Environment:
+        Variables:
+          PARAM1: VALUE
+      Events:
+        TSYSMockApi:
+          Properties:
+            Method: ANY
+            Path: /{proxy+}
+          Type: Api
+      Handler: index.handler
+      Policies: AWSLambdaBasicExecutionRole
+      Runtime: nodejs8.10
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

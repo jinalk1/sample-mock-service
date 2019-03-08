@@ -1,0 +1,27 @@
+{
+    "identifiers": {
+        "accountId": "00000000301"
+    },
+    "meta": {
+        "highOverLimit": {
+            "currency": "USD",
+            "value": "191411.55"
+        }
+    },
+    "originalLimit": {
+        "credit": {
+            "currency": "USD",
+            "value": "5000.00"
+        }
+    },
+    "currentLimit": {
+        "credit": {
+            "currency": "USD",
+            "value": "5000.00"
+        },
+        "cash": {
+            "currency": "USD",
+            "value": "250.00"
+        }
+    }
+}

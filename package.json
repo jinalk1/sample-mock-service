@@ -1,0 +1,26 @@
+{
+  "name": "tsys-mock-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "package": "./scripts/package_lambda.sh",
+    "test": "mocha tests/unit/**/*.js",
+    "api-test": "mocha tests/api/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-arrays": "^2.0.0",
+    "log4js": "^4.0.2",
+    "mocha": "^6.0.2"
+  }
+}

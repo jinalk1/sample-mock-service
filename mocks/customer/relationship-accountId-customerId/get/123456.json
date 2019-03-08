@@ -1,0 +1,166 @@
+{
+    "identifiers": {
+        "customerId": "000029489",
+        "cardLast4": "0206"
+    },
+    "customerRelationshipInformation": [
+        {
+            "dateRelationshipUpdated": "2017-08-07",
+            "customerId": "000029489",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "dateRelationshipUpdated": "2018-07-17",
+            "relationshipType": "HUSBAND",
+            "customerId": "000028301",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "SARA API"
+        },
+        {
+            "dateRelationshipUpdated": "2018-07-16",
+            "relationshipType": "FATHER",
+            "customerId": "000028779",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "SALLY MILLS"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029490",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029491",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029494",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029495",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029496",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029497",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "AAA ABC XYZ"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000029499",
+            "dateRelationshipAdded": "2017-03-27",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034507",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034508",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034509",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034510",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034511",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034512",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034513",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034514",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034515",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034516",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034517",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034519",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034520",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034521",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034522",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        },
+        {
+            "relationshipType": "OTHER",
+            "customerId": "000034523",
+            "dateRelationshipAdded": "2017-08-21",
+            "customerName": "FIRSTONE MIDDLEONE LAST"
+        }
+    ]
+}
